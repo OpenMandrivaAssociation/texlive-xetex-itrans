@@ -64,3 +64,16 @@ using itrans. Fontspec maps are provided for Devanagari
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Thu Jan 05 2012 Paulo Andrade <pcpa@mandriva.com.br> 4.0-2
++ Revision: 757625
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 4.0-1
++ Revision: 719933
+- texlive-xetex-itrans
+- texlive-xetex-itrans
+- texlive-xetex-itrans
+
