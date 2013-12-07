@@ -6,7 +6,7 @@
 # catalog-version 4.0
 Name:		texlive-xetex-itrans
 Version:	4.0
-Release:	3
+Release:	4
 Summary:	Itrans input maps for use with XeLaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/xetex/generic/itrans
