@@ -1,12 +1,12 @@
-# revision 24105
+# revision 32810
 # category Package
 # catalog-ctan /macros/xetex/generic/itrans
-# catalog-date 2011-09-26 15:47:09 +0200
+# catalog-date 2014-01-28 13:57:50 +0100
 # catalog-license lppl1.3
-# catalog-version 4.0
+# catalog-version 4.1
 Name:		texlive-xetex-itrans
-Version:	4.0
-Release:	6
+Version:	4.1
+Release:	1
 Summary:	Itrans input maps for use with XeLaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/xetex/generic/itrans
@@ -64,16 +64,3 @@ using itrans. Fontspec maps are provided for Devanagari
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Thu Jan 05 2012 Paulo Andrade <pcpa@mandriva.com.br> 4.0-2
-+ Revision: 757625
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 4.0-1
-+ Revision: 719933
-- texlive-xetex-itrans
-- texlive-xetex-itrans
-- texlive-xetex-itrans
-
