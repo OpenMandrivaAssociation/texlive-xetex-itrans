@@ -5,8 +5,8 @@
 # catalog-license lppl1.3
 # catalog-version 4.1
 Name:		texlive-xetex-itrans
-Version:	4.1
-Release:	5
+Version:	4.2
+Release:	1
 Summary:	Itrans input maps for use with XeLaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/xetex/generic/itrans
