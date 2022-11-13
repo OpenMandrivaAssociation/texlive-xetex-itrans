@@ -1,18 +1,12 @@
-# revision 32810
-# category Package
-# catalog-ctan /macros/xetex/generic/itrans
-# catalog-date 2014-01-28 13:57:50 +0100
-# catalog-license lppl1.3
-# catalog-version 4.1
 Name:		texlive-xetex-itrans
-Version:	4.2
-Release:	2
+Version:	55475
+Release:	1
 Summary:	Itrans input maps for use with XeLaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/xetex/generic/itrans
 License:	LPPL1.3
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/xetex-itrans.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/xetex-itrans.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/xetex-itrans.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/xetex-itrans.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -24,12 +18,12 @@ using itrans. Fontspec maps are provided for Devanagari
 (Sanskrit), for Sanskrit in Kannada and for Kannada itself.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -57,7 +51,7 @@ using itrans. Fontspec maps are provided for Devanagari
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
