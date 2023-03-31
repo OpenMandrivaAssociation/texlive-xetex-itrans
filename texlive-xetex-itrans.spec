@@ -1,6 +1,6 @@
 Name:		texlive-xetex-itrans
 Version:	55475
-Release:	1
+Release:	2
 Summary:	Itrans input maps for use with XeLaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/xetex/generic/itrans
