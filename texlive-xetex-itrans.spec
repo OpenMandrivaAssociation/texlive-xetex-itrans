@@ -3,7 +3,7 @@ Version:	55475
 Release:	2
 Summary:	Itrans input maps for use with XeLaTeX
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/xetex/generic/itrans
+URL:		https://www.ctan.org/tex-archive/macros/xetex/generic/itrans
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/xetex-itrans.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/xetex-itrans.doc.r%{version}.tar.xz
